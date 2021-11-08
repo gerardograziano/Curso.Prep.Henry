@@ -1,0 +1,13 @@
+	
+    * Variables
+    Las variables se utilizan para guardar un valor, un dato que luego utilizaremos en otra parte del programa.
+    Las variables tienen un nombre para poder identificarlas, y en algunos lenguajes se debe especificar el tipo, 
+    por ejemplo, si numérica, si es un texto, si guarda un valor lógico.
+
+	* Strings
+    Es un tipo de datos que nos permite almacenar porciones de texto, en forma de cadena de caracteres,
+    y operar con los mismo. Evaluando la longitud, realizar busquedas dentro de la misma, concatenando 
+
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)

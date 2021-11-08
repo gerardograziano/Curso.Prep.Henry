@@ -6,8 +6,21 @@
 
 	* Strings
     Es un tipo de datos que nos permite almacenar porciones de texto, en forma de cadena de caracteres,
-    y operar con los mismo. Evaluando la longitud, realizar busquedas dentro de la misma, concatenando 
+    y operar con los mismo. Evaluando la longitud, realizar busquedas dentro de la misma, concatenando cadenas.
 
 	* Funciones (argumentos, `return`)
+    Las funciones nos permiten agilizar la programación en el caso de tener que realizar varias veces
+    la misma tarea, reutilizando el codigo.
+    Para esto debemos definirla, y especificar si va a recibir argumentos o no. En caso de recibir debemos
+    darle un nombre a cada argumento cuando estamos escribiendo nuestra funcion.
+    Además podemos o no devolver un valor, según la complejidad de nuestro metodo.
+
 	* Declaraciones `if`
+    El "if" es una instruccion de bifurcación de la secuencia del programa, donde se evalua una condición lógica,
+    donde el resultado de esa condición puede ser Verdadera(true) o Falsa(false).
+
 	* Valores booleanos (`true`, `false`)
+    Los valores booleanos vienen de la lógica de Boole, que se refiere al codigo binario, 01010101, cero o unos, 
+    esto quiere decir que solo puede haber dos valores posibles 0 o 1, verdadero o falso, abierto o cerrado.
+    En los lenguajes de programación se utiliza 'true' o 'false', para identificar si un valor booleano es verdadero o falso.
+    

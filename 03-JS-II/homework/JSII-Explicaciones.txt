@@ -1,0 +1,19 @@
+`for`
+La sentencia for se utiliza para repetir n veces una porción de código, ejemplo si quisieramos listar los primeos 10 multimplos
+de un número dado, en vez de escribir 10 veces la operación, solo tendriamos que hacer que nuestro codigo se repita 10 (n veces),
+para estos casos es que utilizamos 'for'. Esta instruccíon va a tener un variable, con un valor inicial; una condición de corte,
+donde se debe evaluar la variable, cada vez de realizar una nueva iteración; y un incremento de la variable, donde se va modificando
+el valor para que pueda llegar a la condicion de corte.
+
+`&&`
+Es un operador lógico que nos sirve para evaluar dos expresiones, que si o si nos devolvera VERDADERO (true), si las dos expresiones
+son verdaderas. Representa a la "Y" o "AND". 
+
+`||`
+Es un operardor lógico que tambien evalua dos expresiones, en este caso solo bastara que una de las expresiones sea verdadera, para que
+sea VERDADERO el valor lógico. Será FALSO (false) en el caso que ambas expresiones sean falsas.
+
+
+`!`
+Este operador se utilza para negar ('NOT') una expresión. Si la expresión es verdadera, anteponiendole este operador
+será FALSA. Y si la expresión es falsa, anteponiendo el simbolo '!' se convertira en VERDADERA.

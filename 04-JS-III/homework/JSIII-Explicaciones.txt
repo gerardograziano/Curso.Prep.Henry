@@ -1,0 +1,50 @@
+arrays
+Los arrays son arreglos o matrices. ¿Para que nos sirven?, son muy utiles a la hora de agrupar datos, 
+ejemplo si tenemos que almacenar los diferentes tipos de deportes
+que se práctican en un club.
+
+const clubDeportes = ['basquet', 'tenis', 'voley', 'futbol','natación'];
+
+la longitud o cantidad de elemento de la matriz se obtiene utilizando la propiedad .length 
+
+console.log(clubDeportes.length); // 5
+
+El primer elemento es 0, y el ultimo lo obtenemos de la longitud de la matriz menos 1.
+
+const clubDeportes = ['basquet', 'tenis', 'voley', 'futbol','natación'];
+console.log(clubDeportes[0]); // basquet       
+console.log(clubDeportes[clubDeportes,length-1]); // natación
+
+
+En los arreglos pueden contener tantos elementos como queramos. Para agregar elementos, contamos con
+dos metodos .push('item') que lo agrega al final de la lista, y nos devuelve la cantidad de elementos
+que tiene el array luego de la operarcion de .push.
+
+cantElementos = clubDeportes.push('handball');
+// quedaria  ['basquet', 'tenis', 'voley', 'futbol', 'natación', 'handball'];
+
+el otro metodo es .unshift('item') que agrega el elemento al comienzo del array, y también
+en este caso nos devuelve la cantidad de elementos que tiene el array luego de la operacion de unshift.
+
+cantElementos = clubDeportes.unshift('handball');
+// quedaria  ['handball', 'basquet', 'tenis', 'voley', 'futbol', 'natación'];
+
+
+
+para modificar algun elemento en particular podemos usar los corchete, indicando el 
+indice de elemento que queremos reasignar
+
+const clubDeportes = ['basquet', 'tenis', 'voley', 'futbol','natación'];
+clubDeportes[3] = 'padle';
+
+// ['basquet', 'tenis', 'voley', 'padle','natación'];
+
+
+para sacar un elemento de la matriz utilizamos .pop(), se elimina del array el último elemento
+del arreglo y nos devuelve el elemetno, disminuyendo en 1 la longitud.
+
+también podemos utilizar .shift(), en este caso se elimina del array el primer elemento
+del arreglo  y nos devueve el elemento, disminuyendo en 1 la longitud.
+
+
+

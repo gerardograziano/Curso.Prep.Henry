@@ -1,0 +1,94 @@
+* Objetos
+
+Los objetos agrupa propiedades de una cosa o entidad.
+Ejemplo: un auto puede ser de color blanco, azul, rojo; puede tener 3, 4 o 5 puertas, 
+puede sera nafta, diesel; cada una de estas cosas es una propiedad que definen a un auto.
+La proiedades de este serian: color, cantidad de puertas, tipo de combustible, etc.
+Es decir, un objeto es una colección de propiedades. Y cada propiedad tiene un valor determinado.
+
+
+* Propiedades
+
+Las propiedades de un objeto, son unicas, es decir no puede haber otra de igual nombre.
+Los valores pueden ser de cualquier tipo de dato de Javascript: cadena, numero, booleano, arreglo,
+una funcion, o también otro objeto.
+Dicho esto podemos decir que los objetos utilizan el concepto de pares de clave:valor, 
+donde la clave(key) es el identificador y el valor(value) es el valor que queremos guardar en esa clave.
+
+Para acceder a los valores podemos utilizar dos formas diferentes usando puntos o corchetes.
+
+var auto = {
+    color : 'Rojo',
+    puertas : 4,
+    tipoCombustible : 'nafta';
+}
+
+auto.color;  // Rojo
+auto['color'];  // Rojo
+
+
+* Métodos
+
+Las funciones guardadas en un objeto se denominan métodos. Podemos establecer un nombre para la clave
+y una funcion para el valor. Esto nos permite definir metodos particulares para cada objeto, 
+agrupando de esta manera sus caracteristicas y funciones.
+
+var auto = {
+    color : 'Rojo',
+    puertas : 4,
+    tipoCombustible : 'nafta';
+    mostrarCaractiristicas : function (){
+        console.log('Color:' + auto.color);
+        console.log('Puertas:' + auto.puertas);
+    }
+}
+
+auto.mostrarCaractiristicas();
+
+
+
+* Bucle `for…in`
+
+Cuando queremos recorrer cada par clave:valor, en Javascript existe un tipo de Bucle
+que nos permite hacer esta operación.
+
+var auto = {
+    color : 'Rojo',
+    puertas : 4,
+    tipoCombustible : 'nafta';
+}
+
+for (let clave in auto){
+    console.log(clave);
+}
+
+// color
+// puertas
+// tipoCombustible
+
+
+
+* Notación de puntos vs notación de corchetes
+
+Para poder acceder a las propiedades o metodos de un objeto podemos utilizar
+tanto la notación de puntos como la de corchetes, salvo una particularidad
+que si quisieramos utilizar una variable como nombre de clave en la notación
+con punto (dot notation) no podriamos, pero en la notación con corchetes si
+podriamos hacerlos.
+
+var auto = {
+    color : 'Rojo',
+    puertas : 4,
+    tipoCombustible : 'nafta';
+}
+
+let clave = 'color';
+
+auto[clave];  // Rojo
+
+
+si quisieramos escribir 'auto.clave' , nos daria error, ya que la propiedad 
+clave no exite en la definicion del objeto auto.
+
+
+

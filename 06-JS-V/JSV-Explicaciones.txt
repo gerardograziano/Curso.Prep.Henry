@@ -1,0 +1,38 @@
+
+* `prototype`
+
+Cuando trabajamos con objetos y estos contienen metodos dentro de su definicion de calse, 
+y estos objetos representaran un gran volumen de entidades, entonces, nuestro programa va a
+requerir una gran cantidad de memoria para almacenar cada uno de estos objetos.
+En Javascriopt, existe una forma de ahorrar esa cantidad de memoria, estos son,  los
+prototype, aqui se definen los métodos comunes a los objetos. 
+Para referencia a las propiedades de la clase, utilizaremos la palabra reservada this.
+
+Ejemplo:
+function Camion (marca, cargaMaxima, tara, tieneAcoplado){
+    this.marca = marca;
+    this.cargaMaxima = cargaMaxima;
+    this.tara = tara;
+    this.tieneAcoplado = tieneAcoplado;
+}
+
+Camion.prototype.pesoTotal(){
+    return "Carga Maxima : " + (this.cargaMaxima + this.tara);
+}
+
+
+Var Scania1 = new Camion('SCANIA','8000','12000', true);
+
+
+Scania.pesoTotal(); // Carga Maxima : 20000
+
+
+
+* _Constructors_ (de Clases)
+
+La función constructora de una clase es un método especial para crear e inicializar un objeto creado con una clase. 
+Básicamente sólo define propiedades y métodos. Tiene todas las características de una función.
+Solo puede haber un método especial con el nombre "constructor" en una clase.
+
+Por convención el nombre de una función constructora debe comenzar con una letra mayúscula; esto se utiliza para hacer
+que las funciones constructoras sean más fáciles de reconocer en el código.

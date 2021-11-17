@@ -1,0 +1,6 @@
+* Funciones Callback
+
+Una de las capacidades mas importante de JavaScript es el poder utilizart callback, esto quiere decir que podemos 
+pasar como argumento una función a otra función.  Como convencion se usa cb como argumento para la variable 
+que se usara como callback.
+

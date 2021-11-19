@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2GIR-ZK9cTnDbujMGkMYMkdCUOV_tJK7Qtsf1JpS8n9IeJSSzRCpJ11xD9MXeBsf5c8&usqp=CAU");
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: brown;  
+}
+
+img{
+    width: 400px;
+}
+
+.divClass{
+    background-color:blanchedalmond;
+    width: 620px;
+}
+
+
+#thirdDiv{
+    margin: 0 auto;
+    width: 500px;
+    height: 600;
+    background-color: darkkhaki;
+    padding: 50px;
+    border-color: darkred;
+    border-style: double;
+    border-width: 10px;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}

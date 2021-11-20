@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,25 +16,85 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    visibility: hidden;
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+    flex-direction: row-reverse;
+}
+
+
+
+
+/* Ejercicio 7. */
+#ejercicioSiete{
+    display : flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+#elementoUno{
+    background-color: brown;
+    color: cornsilk;
+    align-self: flex-start;
+}
+
+#elementoDos{
+    position: relative;
+    margin-bottom: 152px;
+    background-color:bisque;
+}
+
+
+#elementoTres{
+    position: relative;
+    margin-bottom: 50px;
+    background-color: brown;
+    color: cornsilk;
+}
+
+#elementoCuatro{
+    position: relative;
+    margin-bottom: 152px;
+    background-color:bisque;
+}
+
+
